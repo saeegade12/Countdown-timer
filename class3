@@ -1,0 +1,32 @@
+#function
+def calc():
+  print("hello all","\ngood morning","\nthank you")
+calc()  
+calc()
+calc()
+calc()
+
+
+def a(name):
+  print("my fav cartoon is :",name)
+a("tom n jerry")
+a("oggy") 
+a("cinderalla") 
+
+def sum(num1,num2):
+  sum=num1+num2
+  print("sum of two numbers is :",sum)
+sum(4,5)
+sum(67,89)
+
+def add():
+  a=int(input("enter your first number :"))
+  b=int(input("enter your second number :"))
+  print(a+b)
+add()
+
+#iteration
+list1=[1,2,3,4,5]
+a=iter(list1)
+print(next(a))
+print(next(a))
