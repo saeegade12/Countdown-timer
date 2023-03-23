@@ -1,0 +1,77 @@
+ # Variables-> a data container,which stores the data
+# a variable should not start with numbers or special charac
+# can start with letter or special charac eg- num1 num2 _num_10
+
+# string= single quotes or double quotes ... set of characters...
+name='john'
+a=12
+print(name)
+print(a)
+
+#int = 
+num1=10
+num2=100
+sum=num1+num2
+print(sum)
+
+#float
+num3=132.33
+num4=123.456
+print(num3+num4)
+print(type(sum))
+
+
+#collection data type in python
+# list,tuple,set,dictionary
+
+#list-> is a ordered collection of different datatype,mutable,[]
+list1=[1,23,4,5,6,12,89]
+list2=[1,2,3,True,"data"]
+print((type(list2)))
+print(list1)
+
+#index number-> print individual data
+print(list1[0])
+#updating
+
+list1[-2]=False
+print("after updating the list is ",list1)
+
+#add
+list1.append(0)
+print("the values after adding are",list1)
+
+#insert
+list1.insert(0,23)
+print("after insertion the value are",list1)
+
+#remove
+list1.remove(0)
+print("after removing",list1)
+
+#delete
+del list1[-1]
+print("values after deleting is",list1)
+
+a=[1,2,3,4]
+list1.insert(2,a)
+print("list after large values insertion",list1)
+
+
+#TUPLE-> ORDERED COLLECTION OF DATATYPES immutable(not changeable)
+tup1=(1,2,3,4,5,6,"data")
+print(tup1)
+print("length of the tuple is",len(tup1))
+
+#appending while using tuple
+
+
+tup1app=tup1+(4,5,)
+print(tup1app)
+x=list(tup1)
+print(x)
+x.insert(6,[5,6,7,8])
+
+print(x)
+tup1app=tuple(x)
+print(tup1app)
